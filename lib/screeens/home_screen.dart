@@ -12,8 +12,9 @@ class Homescreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
+        //llamar texto
         title: Text('Peliculas en Cines'),
-        elevation: 0,
+        elevation: 5,
       ),
       body: SingleChildScrollView(
         child: Column(
